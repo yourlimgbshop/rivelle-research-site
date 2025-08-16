@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Rivelle Research (Personal) — Etsy Keyword & Product Analytics Tool</title>
+  <style>
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;margin:0;background:#0b1020;color:#e9eefb}
+    header{padding:40px 20px;text-align:center;background:linear-gradient(120deg,#0b1020,#1a2a6c)}
+    h1{margin:0;font-size:28px}
+    main{max-width:960px;margin:0 auto;padding:24px}
+    .card{background:#121a36;border:1px solid #223; border-radius:16px; padding:20px; margin:16px 0}
+    a{color:#9bdcff}
+    ul{line-height:1.7}
+    footer{padding:24px;text-align:center;color:#b5c2e6}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Rivelle Research (Personal)</h1>
+    <p>Non-commercial research tool for my own Etsy shop. Public data only. No scraping. No browser automation.</p>
+  </header>
+  <main>
+    <section class="card">
+      <h2>What this app is</h2>
+      <p><strong>Rivelle Research (Personal)</strong> is a private tool I use to study keywords and public listings on Etsy for my own shop decisions. It uses the <a href="https://developers.etsy.com/" target="_blank" rel="noopener">official Etsy Open API v3</a> with OAuth2 + PKCE when needed and always includes the required <code>x-api-key</code>. It never collects buyer personal data and never performs any actions on behalf of other sellers.</p>
+    </section>
+
+    <section class="card">
+      <h2>Key Features</h2>
+      <ul>
+        <li><strong>Keyword Research</strong>: query public active listings by keyword and aggregate simple metrics (count, price stats).</li>
+        <li><strong>Product Analytics</strong>: view public listing metadata for a keyword or a specific shop.</li>
+        <li><strong>Profit Calculator</strong>: client-side math only (no API calls).</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Compliance & Data Use</h2>
+      <ul>
+        <li><strong>No scraping</strong> or browser automation. Only REST calls to Etsy Open API v3.</li>
+        <li><strong>Public data only</strong> for research. No buyer PII, no orders, no messages.</li>
+        <li><strong>Minimal scopes</strong> (initially none). OAuth used only if I later access my own shop's non-public data.</li>
+        <li><strong>Zero server storage</strong> of API responses. Data is processed in memory and discarded.</li>
+      </ul>
+      <p>See the <a href="./privacy.html">Privacy Policy</a> for details.</p>
+    </section>
+
+    <section class="card">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:yourlimgbshop@gmail.com">yourlimgbshop@gmail.com</a></p>
+    </section>
+  </main>
+  <footer>
+    <small>&copy; 2025 Rivelle Research (Personal). Not affiliated with Etsy, Inc.</small>
+  </footer>
+</body>
+</html>
